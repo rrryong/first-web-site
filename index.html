@@ -3,7 +3,8 @@
     <head>
         <title>네모세모 스튜디오</title>
         <meta charset="utf-8">
-        <style>
+        <link rel="stylesheet" href="style.css">
+       <!-- <style>
             a {
                 color:black;
                 text-decoration: none;
@@ -27,14 +28,15 @@
             }
             
         </style>
-        <!--.이들어가면 클래스 선택-->
-        <!--모든 selector태그에 대한 스타일 변화-->
+        .이들어가면 클래스 선택
+        모든 selector태그에 대한 스타일 변화
+-->
     </head>
     <body>
         <!--제목-->
         <h1>NEMO SEMO STUDIO</h1> <!--큰 제목1-->
         <!--네비게이션 바-->
-        <nav>
+        <div id="grid">
          <ul> <!--unordered list-->
             <li><a href="index.html">HOME</a></li> 
             <li><a href="1.html">INFO</a></li>
@@ -45,11 +47,9 @@
             <li><a href="6.html">CONTACT</a></li>
             <!--li:list a:adress-->
          </ul>
-        </nav>
+        
         <!--홈-->
-        <br>
-        <article>
-        <h1 id="ttl" class="atc">WELCOME!</h1>
+        <div id="article">
         <h2>네모세모스튜디오에 오신 것을 환영합니다.</h2>
         <p>
             어서오세요! 이곳은 <strong><u>네모세모스튜디오</u></strong>입니다.
@@ -57,11 +57,12 @@
         <p>
             <img src="ns_logo.png" width="20%">
         </p>
-        </article>
+
         <!--footer-->
         <footer>
             <span>email:gisljk2@naver.com</span>
         </footer>
 
-
+    </div>
+</div>
     </body>   

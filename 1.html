@@ -3,68 +3,7 @@
     <head>
         <title>네모세모 스튜디오</title>
         <meta charset="utf-8">
-        <style>
-            #grid{
-                display: grid;
-                grid-template-columns: 120px 1fr;
-            } /*그리드 태그 1fr-자동 조정*/
-            a {
-                color:black;
-                text-decoration: none;
-            } /*링크되는거 검정색으로*/
-            h1 {
-                font-size: 60px;
-                text-align: center;
-                border-bottom: 5px solid gray;
-                margin: 0px;
-            } /*큰 제목*/
-            #grid ul {
-                list-style: none;
-                margin: 0;
-                padding: 10px;
-                border-right: 7px solid gray;
-            } /*네비게이션 리스트*/
-            body {
-                margin: 0;
-            }
-            img {
-                border: 5px solid gray;
-            }
-            #article{
-                padding: 20px;
-            }
-            #article h2{
-                margin: 0;
-                padding-bottom: 10px;
-            }
-            #article h3{
-                margin: 0;
-            }
-            #story{
-                margin: 10px;
-            }
-            footer{
-                border: 1px solid gray;
-                padding: 3px;
-                display: inline;
-            }
-            @media(max-width:800px){
-            #grid{
-               display: block; 
-               /*block level element가 되면 밑으로 내려감*/
-            }
-            #grid ul{
-                border-right:none;
-                border-bottom: 5px dashed gray;
-            }
-            h1{
-                border-bottom: 5px dashed gray;
-            }
-            #grid p img{
-                border: 5px dashed gray;
-            }
-            }
-        </style>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <!--제목-->
